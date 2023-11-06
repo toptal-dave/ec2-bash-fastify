@@ -12,3 +12,15 @@ npm i
 
 # Run server
 node server
+
+# Install nginx
+dnf install -y nginx
+
+# Set up default listener
+mv default /etc/nginx/sites-available/default
+
+# Start NGINX
+systemctl start nginx.service
+
+# Persist NGINX on start-up
+systemctl enable nginx.service
