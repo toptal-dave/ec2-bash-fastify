@@ -1,0 +1,12 @@
+{
+  "name": "ec2-bash-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": "git@github.com:toptal-dave/ec2-bash-fastify.git"
+}
