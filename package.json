@@ -4,13 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2-runtime start ecosystem.config.js --env production"
   },
   "author": "",
   "license": "ISC",
   "repository": "git@github.com:toptal-dave/ec2-bash-fastify.git",
   "type": "module",
   "dependencies": {
-    "fastify": "^4.24.3"
+    "fastify": "^4.24.3",
+    "pm2": "^5.3.0"
   }
 }
