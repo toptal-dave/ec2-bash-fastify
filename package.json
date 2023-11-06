@@ -8,5 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "repository": "git@github.com:toptal-dave/ec2-bash-fastify.git"
+  "repository": "git@github.com:toptal-dave/ec2-bash-fastify.git",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  }
 }
