@@ -12,7 +12,8 @@ fastify.get("/", async function handler(request, reply) {
 // Run the server!
 try {
   await fastify.listen({
-    port: process.env.NODE_ENV === "production" ? 80 : 3000,
+    port: 3000,
+    http: "0.0.0.0",
   });
 } catch (err) {
   fastify.log.error(err);
