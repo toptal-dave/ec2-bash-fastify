@@ -12,7 +12,7 @@ fastify.get("/", async function handler(request, reply) {
 // Run the server!
 try {
   await fastify.listen({
-    port: 3000,
+    port: 8080,
     http: "0.0.0.0",
   });
 } catch (err) {
